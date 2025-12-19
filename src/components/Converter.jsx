@@ -39,9 +39,10 @@ const Converter = ({ onNext }) => {
                 background: '#F3F4F6',
                 borderRadius: '9999px',
                 padding: '2px',
+                marginBottom: '50px',
                 gap: '0',
                 width: '380px',
-                margin: '0 auto 64px auto'
+                margin: '0 auto'
             }}>
                 {tabs.map((tab) => (
                     <button
